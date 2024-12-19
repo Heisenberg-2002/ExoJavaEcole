@@ -46,7 +46,7 @@ public class StringWrapper implements Iterable<Character> {
             System.out.print(c + " ");
         }
 
-        System.out.println("\n\nParcours inversé:");
+        System.out.println("Parcours inversé:");
         StringWrapper reverseWrapper = new StringWrapper("Hello", true); // Parcours inversé
         for (char c : reverseWrapper) {
             System.out.print(c + " ");
